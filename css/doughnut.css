@@ -1,0 +1,17 @@
+form.doughnut-form label:after {
+    clear: both;
+}
+form.doughnut-form label:before, form.doughnut-form label:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+form.doughnut-form input.doughnut-amount {
+	float: right;
+	width: 35%;
+	text-align: right;
+}
+h4.doughnut-total {
+	font-weight: bold;
+	text-align: right;
+}
